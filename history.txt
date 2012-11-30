@@ -1,0 +1,5 @@
+2012/11/22 - Ship.pm의 @ship_kind를 %shipkind 해쉬로 바꿔 지저분한 $num 변수 제거
+	   ' LWP::UserAgent 객체생성과 스칼라 $tree의 선언을 foreach문 바깥으로 빼냄
+	   ' 실행문 if ( 조건식 ); 문장에서 perl스타일에 따라 조건식에 붙은 괄호 제거
+
+2012/11/18 - 2012AdvCAL_1.0 완료
