@@ -6,9 +6,9 @@ use Wx::Event qw/EVT_GRID_LABEL_LEFT_CLICK EVT_GRID_LABEL_RIGHT_CLICK/;;
 use wxPerl::Styles 'wxVal';
 
 sub new{
-    my ($class, $frame, @arg_list)  = @_;
+    my ($class, $frame, @args)  = @_;
     my $self = $class->SUPER::new( $frame, -1);
-    $self->_init(@arg_list);
+    $self->_init(@args);
     return $self;
 }
 
